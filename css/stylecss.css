@@ -1,0 +1,211 @@
+body{
+    background: url("../img/panoram.jpg");
+    background-repeat: no-repeat;
+    font-family: "Helvetica Neue Regular", Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+.wrapper{
+    width: 1215px;
+    margin: 0 auto;
+}
+.row{
+    margin: 0 15px;
+}
+.header{
+    padding: 0 100%;
+    margin: 0 -100%;
+    width: 100%;
+    height: 36px;
+    background: #0f5b9c;
+}
+.menu{
+    height: 36px;
+    width: 745px;
+    float: right;
+}
+ul{
+    font-size: 0;
+    padding-top: 10px;
+}
+ul li{
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    padding: 0 5px;
+}
+ul li a{
+    width: 36px;
+    padding: 9px 5px;
+    text-decoration: none;
+    color: #60b5ed;
+}
+ul li a:hover{
+    color: #fff;
+    background: #4eabda;
+
+}
+.line {
+    padding-right: 10px;
+}
+.line:after{
+    content:"";
+    position: absolute;
+    border-right: 1px solid #4eabda;
+    height: 30px;
+    top: -7px;
+    right: 0;
+}
+.flaga{
+    margin-left: 30px;
+}
+.flaga:before{
+    content: "";
+    position: absolute;
+    background: url("../img/inventicons.png");
+    width: 27px;
+    height: 31px;
+    top: -5px;
+    left: -19px;
+}
+.oops{
+    color: #fff;
+    background: #4aa5d7;
+    padding: 10px 0;
+    margin: -10px 0;
+}
+.oops a{
+    color: #fff;
+    text-decoration: underline;
+}
+.oops a:hover{
+    text-decoration: none;
+}
+.content{
+    position: relative;
+    width: 1215px;
+    margin: 215px 0 204px;
+}
+.centrpan{
+    width: 560px;
+    margin: 0 auto;
+}
+.head{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 63px;
+    margin-bottom: 2px;
+}
+.head p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    padding-top: 18px;
+}
+.nav-menu{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.nav-menu div{
+    width: 280px;
+    height: 36px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.login button{
+    width: 280px;
+    height: 36px;
+    color: #ffffff;
+    font-weight: bolder;
+    background-color: #354d8b;
+    border-radius: 5px;
+    border-color: #0f5b9c;
+}
+.login{
+    position: relative;
+}
+.login .oops2:before{
+    position: absolute;
+    content: "f";
+    font-size: 22px;
+    left: 12px;
+    bottom: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+.buttom:before{
+    position: absolute;
+    border-right: 1px solid #4e63a2;
+    height: 34px;
+    content: "";
+    padding-right: 15px;
+    left: 15px;
+    top: 11px;
+}
+.buttom:after{
+    position: absolute;
+    content: ">";
+    right: 29px;
+    font-size: 15px;
+    top: 19px;
+}
+.nonbold{
+    font-weight: lighter;
+}
+.unit input{
+    background: #0f0f0f;
+    width: 280px;
+    height: 36px;
+    border: 1px solid #494949;
+    text-indent: 20px;
+}
+.unit input:hover{
+    background: #1b5288;
+    box-shadow: 0px 0px 12px 1px #4985ae;
+}
+.lineOU{
+    position: relative;
+}
+.ou:before,.ou:after{
+    position: absolute;
+    content: "";
+    margin-top: -1px;
+    top: 50%;
+    width: 123px;
+    height: 2px;
+    background-image: url("../img/Line.jpg");
+}
+.ou:before{
+    left: 0;
+}
+.ou:after{
+    right: 0;
+}
+.ou{
+    color: #999999;
+    margin-top: 10px;
+    text-align: center;
+}
+.contract{
+    color: #fff;
+    font-size: 14px;
+}
+.create button{
+    width: 150px;
+    height: 36px;
+    background-color: #4aa5d7;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #4b9dd7;
+    padding: 0 10px;
+    margin: 0 45px;
+    cursor: pointer;
+}
+.create button:hover{
+    background-color: rgba(74,165,215, .6);
+}
+.epilog{
+    color: #ffffff;
+    font-size: 11px;
+    width: 310px;
+    text-align: center;
+    margin: 10px;
+}
